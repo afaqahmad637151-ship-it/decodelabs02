@@ -3,66 +3,248 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Web Layout</title>
+
+    <title>LUMÉA Beauty</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <header>
+    <header class="header">
         <nav class="navbar">
-            <div class="logo">DecodeLabs</div>
+
+            <div class="logo">
+                LUMÉA
+                <span>BEAUTY</span>
+            </div>
 
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Skincare</a></li>
+                <li><a href="#">Makeup</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
             </ul>
+
         </nav>
     </header>
 
     <main>
-
         <section class="hero">
+
             <div class="hero-content">
-                <h1>Responsive Web Layout</h1>
-                <p>
-                    A clean and responsive webpage designed
-                    for different screen sizes.
+
+                <p class="hero-subtitle">
+                    BEAUTY • CARE • CONFIDENCE
                 </p>
+
+                <h1>
+                    Discover Your
+                    <span>Natural Beauty</span>
+                </h1>
+
+                <p class="hero-text">
+                    Explore our collection of skincare and beauty
+                    essentials created to make you feel confident
+                    every day.
+                </p>
+
+                <a href="#" class="hero-button">
+                    Explore Collection
+                </a>
+
             </div>
+
+
+            <div class="hero-image">
+                <img
+                    src="Hero Image.jpg"
+                    alt="Luxury skincare products"
+                >
+            </div>
+
         </section>
 
-        <section class="content">
-            <div class="content-box">
-                <h2>Responsive Design</h2>
-                <p>
-                    This layout adapts to different screen sizes
-                    using CSS responsive techniques.
-                </p>
+        <section class="categories">
+
+            <div class="section-heading">
+                <p>OUR COLLECTION</p>
+                <h2>Beauty Essentials</h2>
             </div>
 
-            <div class="content-box">
-                <h2>Flexible Layout</h2>
-                <p>
-                    Proper spacing and alignment keep the content
-                    organized across devices.
-                </p>
-            </div>
+           <div class="category-grid">
 
-            <div class="content-box">
-                <h2>Media Queries</h2>
-                <p>
-                    CSS media queries will be used to adjust
-                    the layout for smaller screens.
-                </p>
+    <div class="category-card">
+
+        <div class="category-image skincare">
+            <img
+                src="https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=800&q=85"
+                alt="Skincare products"
+            >
+
+            <div class="category-label">
+                SKINCARE
             </div>
+        </div>
+
+        <div class="category-content">
+            <h3>Skincare</h3>
+            <p>
+                Gentle products for healthy,
+                glowing skin.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="category-card">
+
+        <div class="category-image makeup">
+            <img
+                src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=85"
+                alt="Makeup products"
+            >
+
+            <div class="category-label">
+                MAKEUP
+            </div>
+        </div>
+
+        <div class="category-content">
+            <h3>Makeup</h3>
+            <p>
+                Enhance your natural beauty
+                with our makeup collection.
+            </p>
+        </div>
+
+    </div>
+
+
+    
+    <div class="category-card">
+
+        <div class="category-image fragrance">
+            <img
+                src="https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=800&q=85"
+                alt="Fragrance products"
+            >
+
+            <div class="category-label">
+                FRAGRANCE
+            </div>
+        </div>
+
+        <div class="category-content">
+            <h3>Fragrance</h3>
+            <p>
+                Elegant fragrances for
+                every occasion.
+            </p>
+        </div>
+
+    </div>
+
+</div>
         </section>
 
+<section class="products">
+
+    <div class="section-heading">
+        <p>OUR FAVORITES</p>
+        <h2>Featured Products</h2>
+    </div>
+
+    <div class="product-grid">
+
+        <article class="product-card">
+
+            <div class="product-image">
+                <img 
+                    src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=600&q=85"
+                    alt="Glow Face Serum"
+                >
+            </div>
+
+            <div class="product-info">
+                <h3>Glow Face Serum</h3>
+                <p>Hydrating skincare formula</p>
+                <strong>Rs. 2,499</strong>
+            </div>
+
+        </article>
+
+        <article class="product-card">
+
+            <div class="product-image">
+                <img 
+                    src="https://nomakeupmakeup.com/cdn/shop/files/lipstick-pink2.jpg?v=1758660566&width=1000"
+                    alt="Velvet Lip Color"
+                >
+            </div>
+
+            <div class="product-info">
+                <h3>Velvet Lip Color</h3>
+                <p>Long-lasting smooth finish</p>
+                <strong>Rs. 1,499</strong>
+            </div>
+
+        </article>
+        <article class="product-card">
+
+            <div class="product-image">
+                <img 
+                    src="https://parfumsuite.ch/cdn/shop/articles/nischenduefte_c59643fb-7b12-4396-9039-5af1d893b2b0.png?v=1770029534&width=1000"
+                    alt="Bloom Eau De Parfum"
+                >
+            </div>
+
+            <div class="product-info">
+                <h3>Bloom Eau De Parfum</h3>
+                <p>Soft and elegant fragrance</p>
+                <strong>Rs. 3,299</strong>
+            </div>
+
+        </article>
+
+        <article class="product-card">
+
+            <div class="product-image">
+                <img 
+                    src="https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=600&q=85"
+                    alt="Hydra Skin Cream"
+                >
+            </div>
+
+            <div class="product-info">
+                <h3>Hydra Skin Cream</h3>
+                <p>Daily moisturizing care</p>
+                <strong>Rs. 1,899</strong>
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+        
     </main>
+    <footer class="footer">
 
-    <footer>
-        <p>© 2026 DecodeLabs</p>
+        <div class="footer-logo">
+            LUMÉA
+            <span>BEAUTY</span>
+        </div>
+
+        <p>
+            Beauty made simple, elegant and natural.
+        </p>
+
+        <p class="copyright">
+            © 2026 LUMÉA Beauty. All rights reserved.
+        </p>
+
     </footer>
 
 </body>
